@@ -1,27 +1,20 @@
-/* eslint import/no-unresolved: 0 */
-const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const path = require('path');
 
 module.exports = {
-  mode: 'development',
+  entry: './src/index.js',
 
-  entry: {
-    path: path.resolve(__dirname, './src/index.js'),
+  output: {
+    path: path.resolve(__dirname, 'dist'),
   },
 
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Leaderboard',
-      filename: 'index.html',
-      template: './src/index.html',
+      template: path.resolve(__dirname, 'src', 'index.html'),
     }),
   ],
 
-  output: {
-    filename: 'main.js',
-    path: path.resolve(__dirname, 'dist'),
-    clean: true,
-  },
+  mode: 'development',
 
   module: {
     rules: [
@@ -37,8 +30,4 @@ module.exports = {
     ],
   },
 
-  devServer: {
-    watchFiles: path.join(__dirname, 'src'),
-    hot: true,
-  },
 };
