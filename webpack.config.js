@@ -1,3 +1,4 @@
+/* eslint import/no-unresolved: 0 */
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
 
