@@ -1,6 +1,5 @@
 const scoreURL = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/H8F9d3o2Xe5P/scores/';
 
-
 const submitScoreToAPI = async (user, score) => {
   const response = await fetch(scoreURL, {
     method: 'POST',
