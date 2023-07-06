@@ -8,53 +8,29 @@
     <link href="./style.css">
 <script defer src="main.js"></script></head>
 <body>
-    <main>
-        <h1>Leaderboard</h1>
-        <div class="leader-area">
-            <div class="display-score">
-                <div class="title-and-refresh">
-                    <p class="recent-score">Recent Score</p>
-                    <button class="refresh">Refresh</button>
+    <main class="board">
+        <div class="black-board">
+            <h1>LEADERBOARD</h1>
+            <h2 >Alice Border Future Games</h2>
+            <div class="leader-area">
+                <div class="display-score">
+                    <div class="title-and-refresh">
+                        <p class="recent-score">Recent Score</p>
+                        <button type="submit" id="refresh" class="refresh">Refresh</button>
+                    </div>
+                    <div class="titles">
+                        <p>participant</p>
+                        <p>Score</p>
+                    </div>
+                    <ul class="all-score"></ul>
                 </div>
-                <ul class="Fully-score">
-                    <li class="each-entrance">
-                        <p>Name:</p>
-                        <p>100</p>
-                    </li>
-                    <li class="each-entrance">
-                        <p>Name:</p>
-                        <p>20</p>
-                    </li>
-                    <li class="each-entrance">
-                        <p>Name:</p>
-                        <p>50</p>
-                    </li>
-                    <li class="each-entrance">
-                        <p>Name:</p>
-                        <p>78</p>
-                    </li>
-                    <li class="each-entrance">
-                        <p>Name:</p>
-                        <p>125</p>
-                    </li>
-                    <li class="each-entrance">
-                        <p>Name:</p>
-                        <p>77</p>
-                    </li>
-                    <li class="each-entrance">
-                        <p>Name:</p>
-                        <p>42</p>
-                    </li>
-                </ul>
-            </div>
-            <div class="add-score">
-                <h3>Add your Score</h3>
-                <form action="">
-                    <input type="text" placeholder="Your name"><br>
-                    <input type="text" placeholder="Your score"><br>
-                </form>
-                <div class="submit-score-button-div">
-                    <button class="submit-score-button">Submit</button>
+                <div class="add-score">
+                    <h3>Add your Score</h3>
+                    <form action="">
+                        <input id="name" type="text" placeholder="Your name"><br>
+                        <input id="score" type="number" placeholder="Your score"><br>
+                        <input type="submit" id="submit" value="Submit">
+                    </form>
                 </div>
             </div>
         </div>
