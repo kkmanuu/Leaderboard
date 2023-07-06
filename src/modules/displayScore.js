@@ -5,8 +5,8 @@ const displayToScreen = (apiReturnObject, container) => {
     const playersName = document.createElement('p');
     const playersScore = document.createElement('p');
     individualPlayer.className = 'name-and-score-li';
-    playersName.innerHTML = `${player.user}`;
-    playersScore.innerHTML = `: ${player.score}`;
+    playersName.innerHTML = `${player.user}:`;
+    playersScore.innerHTML = ` ${player.score}`;
     container.appendChild(individualPlayer);
     individualPlayer.appendChild(playersName);
     individualPlayer.appendChild(playersScore);

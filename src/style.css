@@ -1,13 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Zeyada&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
+  padding: 0;
 }
 
-main {
-  height: 350px;
+body {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-image: url('modules/Border.jpeg');
+  background-size: cover;
+  width: 80%;
+}
+
+.main {
+  height: 510px;
   width: 70%;
   margin: auto;
-  background-color: greenyellow;
+}
+
+.black-board {
+  background-color: rgba(14, 13, 13, 0.6);
+  width: 80%;
+  height: 480px;
+  position: fixed;
+  margin: 5% 10%;
+  padding-bottom: 60px;
 }
 
 .leader-area {
@@ -16,12 +35,43 @@ main {
   width: 90%;
 }
 
+p {
+  color: aliceblue;
+  width: 150px;
+  margin-left: 40px;
+  border-radius: 98%;
+}
+
+.titles {
+  display: flex;
+  text-align: center;
+  font-size: 24px;
+}
+
+.titles p {
+  color: red;
+  font-weight: bold;
+}
+
+.participant {
+  flex: 1;
+}
+
+.score {
+  flex: 2;
+}
+
 h1 {
   text-align: center;
-  margin-top: 70px;
-  margin-bottom: 55px;
-  padding-top: 20px;
+  padding-top: 10px;
+  color: white;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.all-score-title {
+  display: flex;
+  position: fixed;
+  background-color: rgb(14, 13, 13, 0.6);
 }
 
 .title-and-refresh {
@@ -40,12 +90,27 @@ h1 {
 .refresh {
   padding: 5px;
   font-size: 10px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+  border: 0;
+  cursor: pointer;
+  transition: 1s;
 }
 
-.scores {
-  border: 2px solid black;
-  width: 80%;
+.refresh:hover {
+  background-color: white;
+  color: red;
+}
+
+.all-score {
+  width: 78%;
   padding: 0;
+  height: 230px;
+  overflow: auto;
+  border: 3px solid whitesmoke;
+  border-radius: 3px;
 }
 
 input {
@@ -53,6 +118,7 @@ input {
   margin: 10px 10px 10px 0;
   outline: none;
   width: 99%;
+  border: none;
 }
 
 .each-entrance {
@@ -66,11 +132,13 @@ h3 {
   font-size: 25px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: center;
+  color: white;
 }
 
 .display-score {
-  margin-left: 10%;
+  margin-left: 15%;
   width: 100%;
+  flex-direction: row;
 }
 
 .add-score {
@@ -83,23 +151,41 @@ h3 {
   justify-content: flex-end;
 }
 
-.submit-score-button {
+#submit {
   padding: 5px;
-}
-
-button {
-  background-color: rgb(92, 92, 92);
   color: white;
   font-weight: bold;
+  font-size: 17px;
+  transition: 1s;
   border-radius: 4px;
-  border: 0;
+  width: 110px;
+  background-color: red;
+  align-self: flex-end;
 }
 
-.all-score:nth-child(odd) {
-  background-color: #a3a2a2;
+#submit:hover {
+  font-weight: bold;
+  background-color: white;
+  color: red;
+  cursor: pointer;
+  border: 1px red solid;
 }
 
-@media (width: 426px) {
+.name-and-score-li {
+  display: flex;
+  padding: 5px;
+  gap: 15px;
+  border-bottom: 1px solid white;
+}
+
+h2 {
+  text-align: center;
+  color: red;
+  font-size: 45px;
+  font-family: 'Zeyada', monospace;
+}
+
+@media (width: 416px) {
   .main {
     display: flex;
     flex-direction: column;
@@ -118,7 +204,7 @@ button {
   }
 }
 
-@media (width: 1438px) {
+@media (width: 1440px) {
   .submit-score-button-div {
     margin-right: 58%;
   }
