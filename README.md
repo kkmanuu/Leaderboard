@@ -32,11 +32,9 @@
 - *Use webpack to bundle JavaScript.*
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 :rocket: Live Demo
 
 [Click here](https://kkmanuu.github.io/Leaderboard/dist)
-
 ## :computer: Getting Started <a name="getting-started"></a>
 To get a local copy up and running, follow these steps.
 
