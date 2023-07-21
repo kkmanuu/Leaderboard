@@ -8,9 +8,17 @@
     "dev": "webpack",
     "start": "webpack server --open"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kkmanuu/Leaderboard"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs":{
+    "url": "https://github.com/kkmanuu/Leaderboard/issues"
+  },
+  "homepage": "https://kkmanuu.github.io/Leaderboard/dist",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.8.1",
