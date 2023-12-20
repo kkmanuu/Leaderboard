@@ -34,8 +34,7 @@
 
 :rocket: Live Demo
 
-[Click here](https://kkmanuu.github.io/To-Do-Lists/dist/)
-
+[Click here](https://kkmanuu.github.io/Leaderboard/dist)
 ## :computer: Getting Started <a name="getting-started"></a>
 To get a local copy up and running, follow these steps.
 
