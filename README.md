@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 # :green_book: Table of Contents
-- [:List: To Do List](#-Awesome-a-nameabout-projecta)
+- [:List: Leaderboard](#-Awesome-a-nameabout-projecta)
   - [:hammer_and_wrench: Built With ](#-built-with-a-namebuilt-witha)
     - [Tech Stack ](#tech-stack-a-nametech-stacka)
     - [Key Features ](#key-features-a-namekey-featuresa)
@@ -48,9 +48,6 @@ In order to run this project you need the following:
 - [A terminal](https://code.visualstudio.com/docs/terminal/basics).
 
 ### Setup
-Clone this repository to your desired folder or download the Zip folder:
-
-git clone https://github.com/kkmanuu/To-Do-Lists
 
 - Navigate to the location of the folder in your machine
 
@@ -110,11 +107,6 @@ npx eslint .
 - GitHub: [@githubhandle](https://github.com/kkmanuu)
 - Twitter: [@twitterhandle](https://twitter.com/kkmanuu)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/emmanuel-kipngeno-879370242/)
-
-:bust_in_silhouette: *Malik Haider Khan*
-- GitHub: [@malikhaiderkhan](https://github.com/malikhaiderkhan)
-- Twitter: [@malikhaiderkha](https://twitter.com/malikhaiderkha)
-- LinkedIn: [@malikhaiderkhan](https://www.linkedin.com/in/malik-haider-khan-b53188140)
 
 
 ## :telescope: Future Features <a name="future-features"></a>

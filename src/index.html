@@ -5,8 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leader Board</title>
+    <link href="./style.css">
 </head>
 <body>
-
+    <main class="board">
+        <div class="black-board">
+            <h1>LEADERBOARD</h1>
+            <h2 >Alice Border Future Games</h2>
+            <div class="leader-area">
+                <div class="display-score">
+                    <div class="title-and-refresh">
+                        <p class="recent-score">Recent Score</p>
+                        <button type="submit" id="refresh" class="refresh">Refresh</button>
+                    </div>
+                    <div class="titles">
+                        <p>Player</p>
+                        <p>Score</p>
+                    </div>
+                    <ul class="all-score"></ul>
+                </div>
+                <div class="add-score">
+                    <h3>Add your Score</h3>
+                    <form action="">
+                        <input id="name" type="text" placeholder="Your name"><br>
+                        <input id="score" type="number" placeholder="Your score"><br>
+                        <input type="submit" id="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
